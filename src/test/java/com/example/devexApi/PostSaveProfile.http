@@ -1,0 +1,17 @@
+POST http://92.205.106.232/api/profile
+Content-Type: application/json
+X-Auth-Token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo1ODJ9LCJpYXQiOjE2NzIzNDYyMjksImV4cCI6MTY3MjcwNjIyOX0.Gpmk3Txu9IaIDxSEIi0lphIw2OXLRek7078pfn9TJ_8"
+
+{
+  "company": "{{$random.alphabetic}}",
+  "website": "www.abfffc.com",
+  "location": "{{$random.email}}",
+  "status": "Test",
+  "skills": "HTML,CSS,Javascript",
+  "githubusername": "stringff",
+  "youtube": "strffing",
+  "twitter": "string",
+  "facebook": "stffring",
+  "linkedin": "string",
+  "instagram": "string"
+}

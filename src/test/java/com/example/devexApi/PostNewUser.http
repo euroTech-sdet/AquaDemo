@@ -1,0 +1,11 @@
+POST http://92.205.106.232/api/users
+Content-Type: application/json
+
+{
+  "email": "{{$random.email}}",
+  "password": "Aqua12345",
+  "name": "MacBook",
+  "google": "MAcGoogle",
+  "facebook": "MacFace",
+  "github": "MAcGit"
+}

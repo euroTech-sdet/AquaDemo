@@ -1,0 +1,2 @@
+GET http://92.205.106.232/api/profile/user/25
+Content-Type: application/json
